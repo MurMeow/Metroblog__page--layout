@@ -1,0 +1,83 @@
+@import "./normalize.css";
+@import "./fonts/fonts.css";
+
+
+
+.global-container{
+  width: 1020px;
+  background: #FFF;
+  margin: 0 auto;
+  font-family: segoeWP_l;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.slider_article__images{
+  background-image: url(../images/background_gray.svg);
+}
+
+a{
+  text-decoration: none;
+}
+a:visited, a:active{
+  color: inherit;
+}
+
+
+@media all and (max-width: 67rem) and (min-width: 48rem){
+  .global-container{
+    width: 47rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+}
+
+@media all and (max-width: 47.999rem){
+  .global-container{
+    width: 29rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  /*.hamburger{*/
+    /*display: block;*/
+  /*}*/
+}
+
+
+
+.i_camera{
+  background: url(../images/camera.svg) no-repeat top right;
+  padding: 17px 33px 0 0;
+  float: right;
+}
+
+.i_left-arrow{
+  background: url(../images/arrow_left.svg) no-repeat top right;
+  padding: 26px 10px 0 0;
+  float: right;
+}
+
+
+
+.i_facebook{
+  background: url(../images/fb.png) no-repeat top right;
+  padding: 27px 27px 0 0;
+  float: right;
+}
+
+.i_twitter{
+  background: url(../images/twitter.png) no-repeat top right;
+  padding: 27px 27px 0 0;
+  float: right;
+}
+
+.i_you-tube{
+  background: url(../images/you_tube.png) no-repeat top right;
+  padding: 27px 27px 0 0;
+  float: right;
+}

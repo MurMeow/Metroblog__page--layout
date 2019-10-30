@@ -1,0 +1,48 @@
+//---style ITEM--->>>>
+
+.item{
+  width: 214px;
+  height: 210px;
+  margin: 0 0 50px 0;
+
+  h4{
+    color: #696161;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 9px 0;
+  }
+  p{
+    color: #848484;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 20px;
+  }
+  .data{
+    margin: 0 0 4px 0;
+    .date{
+      margin: 0 5px 0 0;
+    }
+  }
+  .text{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 6;
+      -webkit-box-orient: vertical;
+  }
+}
+
+
+
+@media all and (max-width: 67rem) and (min-width: 48rem){
+
+}
+
+@media all and (max-width: 47.9rem) and (min-width: 36rem){
+
+}
+
+@media all and (max-width: 35.9rem){
+
+}

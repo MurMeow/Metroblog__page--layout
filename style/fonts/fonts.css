@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'segoeWP';
+  src: url('./SegoeWP.ttf');
+}
+
+@font-face {
+  font-family: 'segoeWP_l';
+  src: url('./Segoe-wp-light.ttf');
+}
+
+@font-face {
+  font-family: 'simplo';
+  src: url('./SimploCapsDEMO.ttf');
+}
+
+@font-face {
+  font-family: 'trebuchet';
+  src: url('./trebuc.ttf');
+}
